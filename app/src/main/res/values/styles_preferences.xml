@@ -40,13 +40,16 @@
         <item name="android:layout">@layout/codeassist_preference</item>
     </style>
     
-    <style name="Widget.CodeAssist.CardView.ListItem" parent="Widget.Material3.CardView.Elevated">
-        <item name="cardCornerRadius">24dp</item>
+    <style name="Widget.CodeAssist.CardView" parent="Widget.Material3.CardView.Elevated">
         <item name="cardCornerRadius">15dp</item>
         <item name="cardElevation">0dp</item>
-        <item name="android:focusable">true</item>
+        <item name="cardBackgroundColor">?android:attr/colorBackgound</item>
         <item name="minHeight">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="android:background">?android:attr/colorBackgound</item>
+        <item name="android:focusable">true</item>
         <item name="android:layout_marginHorizontal" tools:targetApi="o">8dp</item>
+        <item name="android:layout_marginLeft">8dp</string>
+        <item name="android:layout_marginRight">8dp</string>
     </style>
     
 </resources>
