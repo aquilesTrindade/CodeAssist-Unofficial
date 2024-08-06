@@ -48,8 +48,8 @@
         <item name="android:background">?android:attr/colorBackgound</item>
         <item name="android:focusable">true</item>
         <item name="android:layout_marginHorizontal" tools:targetApi="o">8dp</item>
-        <item name="android:layout_marginLeft">8dp</string>
-        <item name="android:layout_marginRight">8dp</string>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
     </style>
     
 </resources>
