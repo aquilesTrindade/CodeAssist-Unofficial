@@ -37,5 +37,11 @@
         <item name="android:windowTranslucentNavigation">false</item>
         <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
         <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- preferences -->
+        <item name="preferenceScreenStyle">@style/Preference.CodeAssist.PreferenceScreen</item>
+        <item name="switchPreferenceCompatStyle">@style/Preference.CodeAssist.SwitchPreferenceCompat</item>
+        <item name="preferenceStyle">@style/Preference.CodeAssist</item>
+        <item name="simpleMenuPreferenceStyle">@style/Preference.CodeAssist.Material3.SimpleMenuPreference</item>
     </style>    
 </resources>

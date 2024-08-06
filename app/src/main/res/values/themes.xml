@@ -40,6 +40,7 @@
         <item name="android:windowTranslucentStatus">false</item>
         <item name="android:windowLightStatusBar">true</item>
         
+        <!-- preferences -->
         <item name="preferenceScreenStyle">@style/Preference.CodeAssist.PreferenceScreen</item>
         <item name="switchPreferenceCompatStyle">@style/Preference.CodeAssist.SwitchPreferenceCompat</item>
         <item name="preferenceStyle">@style/Preference.CodeAssist</item>
