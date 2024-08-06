@@ -38,6 +38,11 @@
         <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
         <item name="android:windowTranslucentNavigation">false</item>
         <item name="android:windowTranslucentStatus">false</item>
-        <item name="android:windowLightStatusBar">true</item>      
-        </style>    
+        <item name="android:windowLightStatusBar">true</item>
+        
+        <item name="preferenceScreenStyle">@style/Preference.CodeAssist.PreferenceScreen</item>
+        <item name="switchPreferenceCompatStyle">@style/Preference.CodeAssist.SwitchPreferenceCompat</item>
+        <item name="preferenceStyle">@style/Preference.CodeAssist</item>
+        <item name="simpleMenuPreferenceStyle">@style/Preference.Trindade.Material3.SimpleMenuPreference</item>
+    </style>    
 </resources>
