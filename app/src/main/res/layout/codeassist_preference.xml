@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView
      xmlns:android="http://schemas.android.com/apk/res/android"
-     xmlns:tools="http://schemas.android.com/tools"
      android:layout_height="wrap_content"
      android:layout_width="match_parent"
      style="@style/Widget.CodeAssist.CardView.ListItem"
@@ -32,7 +31,6 @@
                  android:textAppearance="?android:attr/textAppearanceListItem"
                  android:ellipsize="marquee"
                  android:singleLine="true"
-                 tools:text="@tools:sample/lorem[10]"
                  android:id="@android:id/title" />
 
             <com.google.android.material.textview.MaterialTextView
@@ -42,7 +40,6 @@
                  android:textAlignment="viewStart"
                  android:textAppearance="?android:attr/textAppearanceListItemSecondary"
                  android:layout_alignStart="@android:id/title"
-                 tools:text="@tools:sample/lorem[10]"
                  android:maxLines="10"
                  android:id="@android:id/summary"
                  android:layout_gravity="start" />
