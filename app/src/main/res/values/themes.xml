@@ -45,5 +45,7 @@
         <item name="switchPreferenceCompatStyle">@style/Preference.CodeAssist.SwitchPreferenceCompat</item>
         <item name="preferenceStyle">@style/Preference.CodeAssist</item>
         <item name="simpleMenuPreferenceStyle">@style/Preference.CodeAssist.Material3.SimpleMenuPreference</item>
+        <item name="editTextPreferenceStyle">@style/Preference.CodeAssist.DialogPreference</item>
+        <item name="dialogPreferenceStyle">@style/Preference.CodeAssist.EditTextPreference</item>
     </style>    
 </resources>
