@@ -30,15 +30,6 @@
         <item name="widgetLayout">@layout/codeassist_preference_widget_material_switch</item>
         <item name="android:layout">@layout/codeassist_preference</item>
     </style>
-
-    <style name="Preference.CodeAssist.Material3.SimpleMenuPreference" parent="Preference.SimpleMenuPreference">
-        <item name="android:popupMenuStyle">@style/Widget.CodeAssist.Material3.Preference.SimpleMenuPreference.PopupMenu</item>
-    </style>
-
-    <style name="Widget.CodeAssist.Material3.Preference.SimpleMenuPreference.PopupMenu" parent="Widget.Preference.SimpleMenuPreference.PopupMenu">
-        <item name="android:popupBackground">@drawable/codeassist_popupmenu_background_overlay</item>
-        <item name="android:layout">@layout/codeassist_preference</item>
-    </style>
     
     <style name="Widget.CodeAssist.CardView" parent="Widget.Material3.CardView.Elevated">
         <item name="cardCornerRadius">15dp</item>
