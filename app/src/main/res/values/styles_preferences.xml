@@ -30,14 +30,6 @@
         <item name="widgetLayout">@layout/codeassist_preference_widget_material_switch</item>
         <item name="android:layout">@layout/codeassist_preference</item>
     </style>
-    
-    <style name="Preference.CodeAssist.DialogPreference" parent="@style/Preference.DialogPreference.Material" tools:ignore="ResourceCycle">
-        <item name="android:layout">@layout/codeassist_preference</item>
-    </style>
-    
-    <style name="Preference.CodeAssist.EditTextPreference" parent="@style/Preference.DialogPreference.EditTextPreference.Material" tools:ignore="ResourceCycle">
-        <item name="android:layout">@layout/codeassist_preference</item>
-    </style>
 
     <style name="Preference.CodeAssist.Material3.SimpleMenuPreference" parent="Preference.SimpleMenuPreference">
         <item name="android:popupMenuStyle">@style/Widget.CodeAssist.Material3.Preference.SimpleMenuPreference.PopupMenu</item>
